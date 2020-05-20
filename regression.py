@@ -41,6 +41,7 @@ plt.show()
 # lr为learning rate
 # 莫烦老师的0.5的学习率设的有点高，导致不收敛，调低到0.1就可以了，同时别忘了增加训练步数
 optimizer = torch.optim.SGD(net.parameters(), lr=0.1)
+# MSE主要是用于回归问题
 loss_func = torch.nn.MSELoss()
 
 # 训练步数

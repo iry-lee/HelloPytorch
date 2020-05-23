@@ -1,7 +1,6 @@
-import torch
-from torch.autograd import Variable
-import torch.nn.functional as F
 import matplotlib.pyplot as plt
+import torch
+import torch.nn.functional as F
 
 # fake data
 x = torch.unsqueeze(torch.linspace(-1, 1, 100), dim=1)  # x data (tensor), shape=(100, 1)

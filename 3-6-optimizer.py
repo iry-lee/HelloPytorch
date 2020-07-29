@@ -80,3 +80,4 @@ if __name__ == '__main__':
     plt.ylabel('Loss')
     plt.ylim((0, 0.2))
     plt.show()
+
